@@ -25,6 +25,6 @@
 - Старница
 - Заказ
 - Пользователь
-- 
+
 # Архитектура приложения и схема функционала:
 https://docs.google.com/document/d/1PYExJz6GcPtY_D3stItXOcVipWbAoVi9Cu6VXiGA_UI/edit
