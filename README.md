@@ -7,8 +7,8 @@
 - Разработать десктопное приложение для управления заказами, получения статистики и анализ бизнеса
 
 # Технологии: 
-- QT creator (Frontend)
-- Python (Backend)
+- .NET MAUI (Frontend)
+- C# (Backend)
 - MongoDB (DataBase)
 
 # Функционал:
