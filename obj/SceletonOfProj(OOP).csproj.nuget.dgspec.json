@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\University\\253505\\ООП\\OOP(Skeleton)\\Targonski_253505_OOP-master\\SceletonOfProj(OOP).csproj": {}
+    "D:\\University\\253505\\ООП\\OOP(Skeleton)\\Targonski_253505_OOP\\SceletonOfProj(OOP).csproj": {}
   },
   "projects": {
-    "D:\\University\\253505\\ООП\\OOP(Skeleton)\\Targonski_253505_OOP-master\\SceletonOfProj(OOP).csproj": {
+    "D:\\University\\253505\\ООП\\OOP(Skeleton)\\Targonski_253505_OOP\\SceletonOfProj(OOP).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\University\\253505\\ООП\\OOP(Skeleton)\\Targonski_253505_OOP-master\\SceletonOfProj(OOP).csproj",
+        "projectUniqueName": "D:\\University\\253505\\ООП\\OOP(Skeleton)\\Targonski_253505_OOP\\SceletonOfProj(OOP).csproj",
         "projectName": "SceletonOfProj(OOP)",
-        "projectPath": "D:\\University\\253505\\ООП\\OOP(Skeleton)\\Targonski_253505_OOP-master\\SceletonOfProj(OOP).csproj",
+        "projectPath": "D:\\University\\253505\\ООП\\OOP(Skeleton)\\Targonski_253505_OOP\\SceletonOfProj(OOP).csproj",
         "packagesPath": "C:\\Users\\dimat\\.nuget\\packages\\",
-        "outputPath": "D:\\University\\253505\\ООП\\OOP(Skeleton)\\Targonski_253505_OOP-master\\obj\\",
+        "outputPath": "D:\\University\\253505\\ООП\\OOP(Skeleton)\\Targonski_253505_OOP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\SDKForVS\\NuGetPackages"
@@ -50,6 +50,18 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.102.2, )"
+            },
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[31.0.3, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.1.1, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.24.0, )"
@@ -57,6 +69,10 @@
             "MongoDB.Driver.Core": {
               "target": "Package",
               "version": "[2.24.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SceletonOfProj(OOP)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1db5d601ab578a76cdd1096a0fa62b4cf09b180b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SceletonOfProj(OOP)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SceletonOfProj(OOP)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

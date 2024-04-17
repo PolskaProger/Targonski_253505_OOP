@@ -10,8 +10,8 @@ namespace SceletonOfProj_OOP_.LogicLayer
 {
     public class CategoryRep : IRepository<Category>
     {
-        private DataStorage _storage;
-        private readonly string _collectionName = "categories";
+        public DataStorage _storage;
+        public readonly string _collectionName = "categories";
 
         public CategoryRep(DataStorage storage)
         {
@@ -44,9 +44,9 @@ namespace SceletonOfProj_OOP_.LogicLayer
             _storage.UpdateData(_collectionName, filter, update);
         }
 
-        public void Delete(string id)
+        public void Delete(string name)
         {
-            var filter = Builders<Category>.Filter.Eq(c => c.Id, id); // Фильтр для поиска по ID
+            var filter = Builders<Category>.Filter.Eq(c => c.Name, name); // Фильтр для поиска по ID
             _storage.DeleteData<Category>(_collectionName, filter);
         }
     }

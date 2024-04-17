@@ -44,14 +44,14 @@ namespace SceletonOfProj_OOP_.LogicLayer
             var update = Builders<Position>.Update
                 .Set(p => p.Name, position.Name)
                 .Set(p => p.Cost, position.Cost)
-                .Set(p => p.Category, position.Category); // Обновление полей позиции
+                .Set(p => p.category, position.category); // Обновление полей позиции
 
             _storage.UpdateData(_collectionName, filter, update);
         }
 
-        public void Delete(string id)
+        public void Delete(string name)
         {
-            var filter = Builders<Position>.Filter.Eq(p => p.Id, id); // Фильтр для поиска по ID
+            var filter = Builders<Position>.Filter.Eq(p => p.Name, name); // Фильтр для поиска по ID
             _storage.DeleteData<Position>(_collectionName, filter);
         }
     }

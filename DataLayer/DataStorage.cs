@@ -13,6 +13,8 @@ namespace SceletonOfProj_OOP_.DataLayer
     {
         private readonly IMongoDatabase _database;
 
+        
+
         public DataStorage(string connectionString, string dbName)
         {
             var client = new MongoClient(connectionString);

@@ -21,7 +21,7 @@ namespace SceletonOfProj_OOP_.LogicLayer
             var totalCost = 0f;
             foreach (var position in positions)
             {
-                totalCost += position.Cost;
+                totalCost += position.Cost*position.Quantity;
             }
 
             var newOrder = new Order
@@ -50,7 +50,7 @@ namespace SceletonOfProj_OOP_.LogicLayer
                 order.TotalCost = 0;
                 foreach (var position in newPositions)
                 {
-                    order.TotalCost += position.Cost;
+                    order.TotalCost += position.Cost*position.Quantity;
                 }
                 return true;
             }
@@ -81,6 +81,11 @@ namespace SceletonOfProj_OOP_.LogicLayer
         public static List<Order> GetAllOrders()
         {
             return orders;
+        }
+
+        public void AddOrderToList(Order order)
+        {
+            orders.Add(order);
         }
           
     }

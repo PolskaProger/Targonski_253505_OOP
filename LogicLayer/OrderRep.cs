@@ -48,9 +48,9 @@ namespace SceletonOfProj_OOP_.LogicLayer
             _storage.UpdateData(_collectionName, filter, update);
         }
 
-        public void Delete(string id)
+        public void Delete(string contact)
         {
-            var filter = Builders<Order>.Filter.Eq(o => o.Id, id); // Фильтр для поиска по ID
+            var filter = Builders<Order>.Filter.Eq(o => o.Contact, contact); // Фильтр для поиска по ID
             _storage.DeleteData<Order>(_collectionName, filter);
         }
     }

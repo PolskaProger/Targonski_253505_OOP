@@ -52,5 +52,16 @@ namespace SceletonOfProj_OOP_.LogicLayer
         {
             return categories;
         }
+
+        public Category GetCategoryByName(string name)
+        {
+            Category searchCat = categories.Find(c => c.Name == name);
+            if (searchCat != null)
+            {
+                return searchCat;
+            }
+            else
+                return null;
+        }
     }
 }

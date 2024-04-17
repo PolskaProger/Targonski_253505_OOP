@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SceletonOfProj(OOP)", "SceletonOfProj(OOP).csproj", "{E2A88C6B-841E-4CBB-98F4-0501DFF24EEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SceletonOfProj(OOP)", "SceletonOfProj(OOP).csproj", "{E2A88C6B-841E-4CBB-98F4-0501DFF24EEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialiser", "..\Serialiser\Serialiser.csproj", "{BFB4E84B-C9B8-4D73-B999-A8CAC33794CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{E2A88C6B-841E-4CBB-98F4-0501DFF24EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2A88C6B-841E-4CBB-98F4-0501DFF24EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2A88C6B-841E-4CBB-98F4-0501DFF24EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFB4E84B-C9B8-4D73-B999-A8CAC33794CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB4E84B-C9B8-4D73-B999-A8CAC33794CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB4E84B-C9B8-4D73-B999-A8CAC33794CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB4E84B-C9B8-4D73-B999-A8CAC33794CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

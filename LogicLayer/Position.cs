@@ -10,14 +10,16 @@ namespace SceletonOfProj_OOP_.LogicLayer
     {
         public string Name { get; set; }
         public float Cost { get; set; }
-        public string Category { get; set; }
+
+        public int Quantity { get; set; }
+        public string category { get; set; }
         public string Id { get; set; }
 
         public static List<Position> positions = new List<Position>();
 
         public Position CreatePosition(string name, float cost, string category)
         {
-            var newPosition = new Position { Name = name, Cost = cost, Category = category, Id = Guid.NewGuid().ToString() };
+            var newPosition = new Position { Name = name, Cost = cost, category = category, Id = Guid.NewGuid().ToString() };
             positions.Add(newPosition);
             return newPosition;
         }
@@ -55,8 +57,18 @@ namespace SceletonOfProj_OOP_.LogicLayer
         }
         public static List<Position> GetAllPositionsInCategory(string category)
         {
-            var positionInCategory =  positions.FindAll(p => p.Category == category);
+            var positionInCategory =  positions.FindAll(p => p.category == category);
             return positionInCategory;
+        }
+        public Position GetPositionByName(string name)
+        {
+            Position searchCat = positions.Find(p => p.Name == name);
+            if (searchCat != null)
+            {
+                return searchCat;
+            }
+            else
+                return null;
         }
     }
 }
